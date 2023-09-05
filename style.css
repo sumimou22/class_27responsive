@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* ---------------------header-section----------------------- */
+.header-section{
+    background-color: #0dbf9b;
+}
+.header{}
+.header-left {
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 90px;
+    height: auto;
+}
+.header-right{
+    width: 70%;
+    float: right;
+}
+.header-right ul{
+    text-align: right;
+    margin-top: 20px;
+}
+.header-right ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.header-right ul li a{
+    color: white;
+}
+.header-right ul li a:hover{
+    color: rgb(23, 21, 21);
+}
+/* ---------------------HERO-SECTION------------------- */
+.hero-section{
+    background-image: url("https://i.ibb.co/ZhSBCXD/header-bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+.hero{
+    text-align: center;
+}
+.hero h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.hero h5{
+    color: white;
+    margin-bottom: 40px;
+}
+.hero a{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.hero a:hover{
+    color: blueviolet;
+    background-color: olivedrab;
+}
+/* -------------------service-section-------------------------- */
+.service-section{
+    padding: 70px;
+    border-bottom: 1px solid #2dcc9f;
+}
+.service{
+    text-align: center;
+}
+.service h1{
+    margin-top: -39px;
+}
+.service p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.ser{
+    margin-top: 40px;
+    float: left;
+    width: 23%;
+    margin-left: 2%;
+}
+.ser i{
+    color: #0abe9a;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.ser p{
+    text-align: center;
+    padding: 0 20px;
+}
+/* -------------------------about-section-------------------- */
+.about-section{
+    padding: 100px;
+    margin-top: 111px;
+}
+.about{
+    text-align: center;
+}
+.about h2 {
+    margin-top: -167px;
+}
+.about p {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.about-left{
+    float: left;
+    width: 45%;
+}
+.about-right{
+    float: right;
+    width: 40%;
+    text-align: left;
+}
+.about-right h3{
+    margin-bottom: 10px;
+}
+.about-right p{
+    margin-bottom: 15px;
+}
+/* ----------------contract-section------------------- */
+.contract-section{
+    padding: 50px;
+    background-color: #f6f6f6;
+}
+.contract{
+    text-align: center;
+}
+.contract h1{}
+.contract p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.mew{
+    float: left;
+    width: 29%;
+    margin: 0 2%;
+}
+.mew i{
+    color: #09be9a;
+}
+/* -------------------------footer1-section------------------ */
+.footer1-section{
+    background-color: #09be9a;
+    padding: 20px 0;
+}
+.footer1{
+    text-align: center;
+}
+.social li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+.social li i{
+    color: white;
+    font-size: 20px;
+    transform: scale(1);
+    transition: .4s;
+
+}
+.social li i:hover{
+    color: chartreuse;
+    transform: scale(1.5);
+}
+
+/* ----------------------footer2-section------------------- */
+.footer2-section{
+    background-color: black;
+    padding: 20px 0;
+}
+.footer2{
+    text-align: center;
+}
+.footer2 p{
+    color: #555555;
+}
