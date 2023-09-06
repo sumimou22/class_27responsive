@@ -9,11 +9,14 @@
     clear: both;
     display: block;
 }
+.fixwidth{
+    width: 100%;
+}
 /* ---------------------header-section----------------------- */
 .header-section{
     background-color: #0dbf9b;
 }
-.header{}
+
 .header-left {
     float: left;
     width: 30%;
@@ -45,7 +48,7 @@
     background-image: url("https://i.ibb.co/ZhSBCXD/header-bg01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px;
+    padding: 200px 0;
 }
 .hero{
     text-align: center;
@@ -72,7 +75,7 @@
 }
 /* -------------------service-section-------------------------- */
 .service-section{
-    padding: 70px;
+    padding: 70px 0;
     border-bottom: 1px solid #2dcc9f;
 }
 .service{
@@ -102,7 +105,7 @@
 }
 /* -------------------------about-section-------------------- */
 .about-section{
-    padding: 100px;
+    padding: 100px 0;
     margin-top: 111px;
 }
 .about{
@@ -132,13 +135,13 @@
 }
 /* ----------------contract-section------------------- */
 .contract-section{
-    padding: 50px;
+    padding: 50px 0;
     background-color: #f6f6f6;
 }
 .contract{
     text-align: center;
 }
-.contract h1{}
+
 .contract p{
     margin-top: 20px;
     margin-bottom: 30px;
